@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Indie+Flower&family=Rowdies&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+body{
+    margin: 0px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+
+    padding: 20px;
+    font-size: large;
+    font-family: Rowdies;
+}
+
+#body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.home_button {
+    background-color:rgb(220, 212, 212);
+    margin: 2vmin;
+    width: 30vw;
+    height: 10vh;
+
+    border: 0px black;
+    border-radius: 8;
+}
+
+.home_button:hover {
+    background-color: #a2a2a2;
+}
+
+.home_button:active{
+    box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
+    position: relative;
+    top:2px;
+    width: 40vws;
+    transition: all 0.5s;
+}
+
