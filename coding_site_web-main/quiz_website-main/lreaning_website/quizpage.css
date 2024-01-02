@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Indie+Flower&family=Rowdies&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.title {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.difficulty {
+    background-color:rgb(220, 212, 212);
+    margin: 2vmin;
+    width: 30vw;
+    height: 10vh;
+
+    border: 0px black;
+    border-radius: 8;
+}
+.difficulty:hover {
+    background-color: #a2a2a2;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5vh;
+
+    padding: 20px;
+    font-size: large;
+    font-family: Rowdies;
+}
+body{
+    margin: 0px;
+}
+.difficulty:active{
+    box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
+    position: relative;
+    top:2px;
+    width: 40vws;
+    transition: all 0.5s;
+}

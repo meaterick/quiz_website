@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파이썬 기초 문법</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        p, code {
+            color: #555;
+        }
+
+        #backBtn {
+            margin-top: 20px; /* 조절 가능한 값 */
+            margin-bottom: 40px; /* 조절 가능한 값 */
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* 명암 효과 추가 */
+        }
+
+        #backBtn:hover {
+            background-color: #0056b3; /* 호버 상태일 때 명암 색상 변경 */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>파이썬 기초 문법</h1>
+
+    <h2>1. 변수와 데이터 타입</h2>
+    <p>파이썬에서는 변수를 선언하고 데이터 타입을 지정할 필요가 없습니다. 자동으로 타입이 결정됩니다.</p>
+    <code>
+        x = 10<br>
+        name = "John"<br>
+        is_valid = True
+    </code>
+
+    <h2>2. 주석</h2>
+    <p>주석은 코드에 설명을 추가하는 데 사용됩니다. 한 줄 주석은 `#` 기호를 사용하며, 여러 줄 주석은 `'''` 또는 `"""`로 둘러싸인 텍스트 블록을 사용합니다.</p>
+    <code>
+        # 이것은 한 줄 주석입니다.
+
+        '''
+        이것은
+        여러 줄 주석입니다.
+        '''
+
+        """
+        또는 이렇게도 사용할 수 있습니다.
+        """
+    </code>
+
+    <h2>3. 조건문</h2>
+    <p>if, elif, else 키워드를 사용하여 조건문을 작성합니다.</p>
+    <code>
+        if 조건:
+            # 조건이 참일 때 실행되는 코드
+        elif 다른조건:
+            # 다른 조건이 참일 때 실행되는 코드
+        else:
+            # 위의 모든 조건이 거짓일 때 실행되는 코드
+    </code>
+
+    <h2>4. 반복문</h2>
+    <p>for와 while을 사용하여 반복문을 작성할 수 있습니다.</p>
+    <code>
+        for 변수 in iterable:
+            # 반복 실행될 코드
+
+        while 조건:
+            # 조건이 참일 동안 실행될 코드
+    </code>
+
+    <h2>5. 함수</h2>
+    <p>def 키워드로 함수를 정의하고, 매개변수와 반환값을 사용할 수 있습니다.</p>
+    <code>
+        def 함수이름(매개변수):
+            # 함수 내용
+            return 반환값
+    </code>
+
+    <h2>6. 리스트</h2>
+    <p>순서가 있는 데이터를 담는 자료형입니다.</p>
+    <code>
+        my_list = [1, 2, 3, 4, 5]
+    </code>
+
+    <h5>⠀</h5>
+
+    <button id="backBtn" onclick="goToMain()">돌아가기</button>
+
+    <script>
+        function goToMain() {
+            document.getElementById("backBtn").style.marginTop = "40px"; /* 버튼만 아래로 이동 */
+            window.location.href = "main.html";
+        }
+    </script>
+
+</body>
+</html>
